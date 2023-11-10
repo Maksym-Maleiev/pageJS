@@ -49,15 +49,15 @@
     */
 
     // Hello mom and dad
-    var nameDadMax = true;
-    var nameMomDasha = true;
+    var nameDadMax = false;
+    var nameMomDasha = false;
 
-    if (nameDadMax) {
-      console.log("Hello dad!");
+    if (nameMomDasha && nameDadMax) {
+      console.log("Hello parets!");
     } else if (nameMomDasha) {
       console.log("Hello mom!");
-    } else if (nameMomDasha && nameDadMax) {
-      console.log("Hello parets!");
+    } else if (nameDadMax) {
+      console.log("Hello dad!");
     } else {
       console.log("Hello stranger!");
     };
